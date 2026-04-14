@@ -1,0 +1,88 @@
+[
+  {
+    "pedidos": [
+      {
+        "nome": "cafe puro",
+        "preco": 50
+      }
+    ],
+    "total": "20.00"
+  },
+  {
+    "pedidos": [
+      {
+        "nome": "cafe",
+        "preco": 25
+      }
+    ],
+    "total": "25.00"
+  },
+  {
+    "pedidos": [
+      {
+        "nome": "cafe puro",
+        "preco": 10
+      },
+      {
+        "nome": "bolo",
+        "preco": 25
+      }
+    ],
+    "total": "35.00"
+  },
+  {
+    "pedidos": [
+      {
+        "nome": 55,
+        "preco": 1.5,
+        "imc": "24.44",
+        "resultado": "Peso normal"
+      }
+    ],
+    "total": "0.00"
+  },
+  {
+    "pedidos": [
+      {
+        "nome": "Peso: 50kg",
+        "preco": 1.75,
+        "imc": "16.33",
+        "resultado": "Abaixo do peso"
+      }
+    ],
+    "total": "0.00"
+  },
+  {
+    "pedidos": [
+      {
+        "nome": "Peso: 60kg",
+        "preco": 1.8,
+        "imc": "18.52",
+        "resultado": "Peso normal"
+      }
+    ],
+    "total": "0.00"
+  },
+  {
+    "pedidos": [
+      {
+        "nome": "Peso: 12kg",
+        "preco": 1.02,
+        "imc": "11.53",
+        "resultado": "Abaixo do peso"
+      }
+    ],
+    "total": "0.00"
+  },
+  {
+    "pedidos": [
+      {
+        "nome": "Peso: 50kg",
+        "preco": 1.8,
+        "imc": "15.43",
+        "resultado": "Abaixo do peso"
+      }
+    ],
+    "total": "0.00"
+  }
+]

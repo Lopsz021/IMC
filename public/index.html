@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="container">
+        <h1>CALCULADORA IMC</h1>
+
+        <div class="pedido">
+            <h2>Indique seu peso</h2>
+
+            <input type="text" id="peso" placeholder="PESO(KG)">
+            <input type="text" id="altura" placeholder="ALTURA(M[x.xx])" step="0.01" min="0">
+            <ul id="lista-pedidos"></ul>
+
+<br>
+            <button id="adicionar-produto">CALCULAR IMC</button>
+            <button id="salvar-pedidos">Salvar Dados</button>
+            <p>IMC: <span id="total">0.00</span></p>
+             
+        </div>
+       
+        
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

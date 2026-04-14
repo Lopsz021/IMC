@@ -1,0 +1,8 @@
+npm i   -> serve para instalar o node_modules 
+
+node app.js   -> rodar a aplicacao ❌ 
+
+npm init -y   
+
+npm i nodemon  -> rodar o servidor ✅ 
+npm run dev
