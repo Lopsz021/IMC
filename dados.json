@@ -84,5 +84,67 @@
       }
     ],
     "total": "0.00"
+  },
+  {
+    "pedidos": [
+      {
+        "nome": "Peso: 80kg",
+        "preco": 1.7,
+        "imc": "27.68",
+        "resultado": "Sobrepeso"
+      }
+    ],
+    "total": "0.00"
+  },
+  {
+    "imc": [
+      {
+        "nome": "Peso: 70kg",
+        "preco": 1.7,
+        "imc": "24.22",
+        "resultado": "Peso normal"
+      }
+    ],
+    "total": "0.00"
+  },
+  {
+    "imc": [
+      {
+        "nome": "Peso: 80kg",
+        "preco": 1.9,
+        "imc": "22.16",
+        "resultado": "Peso normal"
+      }
+    ]
+  },
+  {
+    "imc": [
+      {
+        "Peso": "Peso: 80kg",
+        "Altura": 1.9,
+        "imc": "22.16",
+        "resultado": "Peso normal"
+      }
+    ]
+  },
+  {
+    "imc": [
+      {
+        "Peso": "Peso: 90kg",
+        "Altura": 2,
+        "imc": "22.50",
+        "resultado": "Peso normal"
+      }
+    ]
+  },
+  {
+    "imc": [
+      {
+        "Peso": "Peso: 120kg",
+        "Altura": 2.4,
+        "imc": "20.83",
+        "resultado": "Peso normal"
+      }
+    ]
   }
 ]
