@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
     
-    const botaoAdicionar = document.getElementById('adicionar-produto');
-    const botaoSalvar    = document.getElementById('salvar-pedidos');
-    const listaPedidos   = document.getElementById('lista-pedidos');
-    const totalElemento  = document.getElementById('total');
+    const botaoAdicionar = document.getElementById('calcular-imc');
+    const botaoSalvar    = document.getElementById('salvar-dados');
+    const listaPedidos   = document.getElementById('lista-de-dados');
+    const totalElemento  = document.getElementById('resultado');
     const pesoInput      = document.getElementById('peso');
     const alturaInput    = document.getElementById('altura');
 
@@ -32,8 +32,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
            
             const novoPedido = {
-                nome: `Peso: ${peso}kg`, 
-                preco: altura,
+                Peso: `Peso: ${peso}kg`, 
+                Altura: altura,
                 imc: imc.toFixed(2),
                 resultado: classificacao
             };
@@ -71,8 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         
         const dadosParaSalvar = {
-            pedidos: pedidosData,
-            total: "0.00" 
+            imc: pedidosData
         };
 
         fetch('http://localhost:3000/salvar', {
