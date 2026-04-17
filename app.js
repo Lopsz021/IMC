@@ -49,7 +49,7 @@ app.post('/salvar',(req, res)=>{
     const dadosParaSalvar = req.body;
     console.log('Dados recebidos: ', dadosParaSalvar);
 
-    if(!dadosParaSalvar.pedidos || !dadosParaSalvar.total){
+    if(!dadosParaSalvar.pedidos){
         return res.status(400).send('Dados inválidos');
     }
 
