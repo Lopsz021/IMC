@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         
         const dadosParaSalvar = {
-            imc: pedidosData
+            pedidos: pedidosData
         };
 
         fetch('http://localhost:3000/salvar', {
